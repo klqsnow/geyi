@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+.g_html{
+    height: 100%;
+}
+.g_body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #222222;
+}
+
+.g_main{
+    position: relative;
+    min-height: 100%;
+    min-width: 1200px;
+}
+.web_banner{
+    width:100%;
+}
+.web_top{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    color: rgb(255,255,255);
+}
+.web_top .title_navi{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.web_top .title_navi .title{
+    position: absolute;
+    left: 18px;
+    top: 35px;
+}
+.web_top .title_navi .navi{
+    position: absolute;
+    right: 0px;
+    top: 32px;
+    height: 50px;
+}
+.web_top .title_navi .navi .navi_item_center{
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0 10px;
+}
+
+.navi_item_center a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 10px;
+    width: auto;
+    min-width: 60px;
+    line-height: 50px;
+    height: 50px;
+    color: rgb(255,255,255);
+    font-size: 16px;
+}
+.navi_item_center a.item_sel{
+    color: #4ab344;
+}
+
