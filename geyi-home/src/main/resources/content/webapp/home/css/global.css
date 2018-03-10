@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+P{
+    margin: 0;
+}
+
+.tac{
+    text-align: center;
+}
 
 .g_html{
     height: 100%;
@@ -72,3 +79,116 @@
     color: #4ab344;
 }
 
+.fullmeasurepage{
+    position: relative;
+}
+.fullmeasurepage_content{
+    position:relative;
+    margin: 150px auto;
+    height: 502px;
+    width: 1200px;
+}
+.fullmeasurepage_content .background_content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.fullmeasurepage .background{
+    position: absolute;
+    top:0px;
+    left: 229px;
+    width: 742px;
+    height: 502px;
+}
+.fullmeasurepage .background1{
+    position: absolute;
+    top: 68px;
+    left: 368px;
+    width: 480px;
+    height: 155px;
+}
+.fullmeasurepage .label1{
+    position: absolute;
+    top: 185px;
+    left: 129px;
+    width: 200px;
+    height: 53px;
+    color: rgb(81, 86, 139);
+}
+.fullmeasurepage .label2{
+    position: absolute;
+    top: 428px;
+    left: 309px;
+    width: 200px;
+    height: 53px;
+    color: rgb(81, 86, 139);
+}
+.fullmeasurepage .label3{
+    position: absolute;
+    top: 380px;
+    left: 771px;
+    width: 200px;
+    height: 53px;
+    color: rgb(81, 86, 139);
+}
+.fullmeasurepage .label4{
+    position: absolute;
+    top: 185px;
+    left: 871px;
+    width: 200px;
+    height: 53px;
+    color: rgb(81, 86, 139);
+}
+.demolist{
+    background: transparent url(http://15783662.s61i.faiusr.com/2/AD0I7q3DBxACGAAgk_KC0gUo3r-HngMwgA84xAQ.jpg) no-repeat top;
+}
+.content_module{
+    position:relative;
+    margin: 150px auto;
+    width: 1200px;
+    height: 100%;
+}
+.module_show_title{
+    position: absolute;
+    top: 255px;
+    left: 0px;
+    width: 200px;
+    height: 68px;
+}
+.module_show_case1{
+    position: absolute;
+    top: 136px;
+    left: 254px;
+    width: 476px;
+    height: 306px;
+}
+.module_show_case2{
+    position: absolute;
+    top: 136px;
+    left: 724px;
+    width: 476px;
+    height: 306px;
+}
+.invest_advantage{
+    position: relative;
+}
+.web_footer{
+    background: #383d65;
+}
+
+.flex-center-horizontal{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.flex-center-horizontal-2{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
