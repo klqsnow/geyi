@@ -1,0 +1,280 @@
+.section_padding {
+  padding: 50px 0;
+}
+.common_text {
+  color: #666;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+.banner {
+  height: 600px;
+  padding-top: 20px;
+  background: url('../img/index_banner.png') no-repeat center center;
+  background-size: cover;
+}
+.banner .header {
+  overflow: hidden;
+}
+.banner .header .logo {
+  width: 165px;
+  height: 57px;
+  background: url('../img/index_logo.png') no-repeat center;
+  background-size: contain;
+  cursor: pointer;
+}
+.banner .header .nav {
+  float: right;
+}
+.banner .header .nav a {
+  display: inline-block;
+  line-height: 70px;
+  color: #0294d6;
+}
+.banner .header .nav a.active {
+  background: url('../img/triangle.png') no-repeat center;
+  background-size: 10px;
+  background-position: center 50px;
+}
+.banner .header .nav .break {
+  font-size: 20px;
+  color: #0294d6;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 300;
+}
+.banner .banner_text {
+  position: absolute;
+  left: 70px;
+  top: 80px;
+}
+.banner .banner_text img {
+  width: 400px;
+}
+.banner .login {
+  background: url(../img/index_login.png) no-repeat center;
+  background-size: cover;
+  width: 220px;
+  height: 52px;
+  position: absolute;
+  top: 260px;
+  left: 82px;
+  text-align: center;
+  color: #fff;
+  line-height: 70px;
+  cursor: pointer;
+}
+.main .section_one {
+  clear: both;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.main .section_one .section_title {
+  margin: 20px 0;
+}
+.main .section_one .section_title .title_zh {
+  font-size: 25px;
+  color: #333;
+  font-weight: 600;
+}
+.main .section_one .section_title .break {
+  font-size: 25px;
+  color: #333;
+  font-weight: 400;
+}
+.main .section_one .section_title .title_en {
+  color: #999;
+  font-size: 17px;
+}
+.main .section_one .section_content {
+  color: #666;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+.main .section_one .section_content .left {
+  float: left;
+  width: 40%;
+}
+.main .section_one .section_content .left img {
+  width: 100%;
+  height: 237px;
+}
+.main .section_one .section_content .right {
+  float: left;
+  width: 60%;
+  padding-left: 50px;
+}
+.main .section_one .section_content .right .text {
+  text-indent: 2em;
+}
+.main .section_one .section_content .right .assets_row {
+  font-size: 0;
+  margin-top: 10px;
+}
+.main .section_one .section_content .right .assets_row .assets_col {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  width: 150px;
+  text-align: center;
+
+}
+.main .section_one .section_content .right .assets_row .assets_col.first {
+  margin-left: -32px;
+  background-image: none;
+}
+.main .section_one .section_content .right .assets_row .assets_col.last {
+  padding-left: 30px;
+  position: relative;
+}
+.main .section_one .section_content .right .assets_row .assets_col.last a {
+  cursor: pointer;
+  line-height: 63px;
+  color: #0294d6;
+}
+.main .section_one .section_content .right .assets_row .assets_col.last a img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -12px;
+  width: 24px;
+}
+.main .section_one .section_content .right .assets_row .assets_col > div {
+  display: inline-block;
+  text-align: left;
+}
+.main .section_one .section_content .right .assets_row .assets_col img {
+  width: 88px;
+}
+.main .section_two {
+  clear: both;
+  background-color: #edf2f9;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.main .section_two .section_title {
+  margin: 20px 0;
+}
+.main .section_two .section_title .title_zh {
+  font-size: 25px;
+  color: #333;
+  font-weight: 600;
+}
+.main .section_two .section_title .break {
+  font-size: 25px;
+  color: #333;
+  font-weight: 400;
+}
+.main .section_two .section_title .title_en {
+  color: #999;
+  font-size: 17px;
+}
+.main .section_two .section_content {
+  height: 360px;
+  background: url('../img/index_service.png') no-repeat center;
+  background-size: cover;
+}
+.main .section_two .section_content .text_wrapper {
+  padding-top: 90px;
+  padding-left: 70px;
+}
+.main .section_two .section_content .text_wrapper .service_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0294d6;
+  margin: 20px 0;
+}
+.main .section_two .section_content .text_wrapper .service_text {
+  color: #666;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  max-width: 500px;
+}
+.main .section_three {
+  clear: both;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.main .section_three .section_title {
+  margin: 20px 0;
+}
+.main .section_three .section_title .title_zh {
+  font-size: 25px;
+  color: #333;
+  font-weight: 600;
+}
+.main .section_three .section_title .break {
+  font-size: 25px;
+  color: #333;
+  font-weight: 400;
+}
+.main .section_three .section_title .title_en {
+  color: #999;
+  font-size: 17px;
+}
+.main .section_three .section_content {
+  margin-top: 30px;
+}
+.main .section_three .section_content img {
+  width: 100%;
+}
+.main .section_three .section_content .advantage_wrapper {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.main .section_three .section_content .advantage_wrapper .advantage_content_section {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .section_three .section_content .advantage_wrapper .advantage_content_section .img_wrapper img {
+  width: 240px;
+}
+.main .section_three .section_content .advantage_wrapper .advantage_content_section .btn_wrapper img {
+  width: 160px;
+}
+.main .section_three .section_content .advantage_wrapper .advantage_content_section .advantage_text {
+  color: #666;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  padding: 0 20px 30px 20px;
+  font-size: 13px;
+  text-align: left;
+}
+.footer {
+  padding: 20px 0 35px 0;
+  letter-spacing: 1px;
+  background-color: #0294d6;
+  color: #fff;
+  font-size: 12px;
+}
+.footer a {
+  color: #fff;
+}
+.footer .contact {
+  text-align: center;
+}
+.footer .contact img {
+  width: 450px;
+}
+.footer .address {
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.footer .address .address_row {
+  float: left;
+  width: 50%;
+}
+.footer .address .address_row .addredd_col {
+  text-align: center;
+  padding: 3px 15px;
+}
+.footer .copyright {
+  text-align: center;
+}
+.footer .copyright > div {
+  margin-bottom: 10px;
+}
